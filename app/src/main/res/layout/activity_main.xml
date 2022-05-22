@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nunoalnogueira.kidsshadowanimalgame.MainActivity"
+    android:background="@drawable/img_background">
+
+    <Button
+        android:id="@+id/button_banner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="banner"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/button_interstitial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="interstitial"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/button_reward"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:text="UNLOCK ALL"
+        android:visibility="invisible" />
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="450dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-5385342330837943/8271095004"></com.google.android.gms.ads.AdView>
+    <!-- TEST: ca-app-pub-3940256099942544/6300978111 -->
+    <!-- TRUE: ca-app-pub-5385342330837943/8271095004 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="123dp">
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/o01" />
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/o01" />
+
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/o01" />
+
+
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/o01" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageMain"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="235dp"
+        app:srcCompat="@drawable/o01" />
+
+    <ImageView
+        android:id="@+id/img_next"
+        android:layout_width="200dp"
+        android:layout_height="110dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:visibility="visible"
+        app:srcCompat="@drawable/next" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/img_gift"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/img_gif"
+        android:visibility="visible" />
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/img_gift_unlock"
+        android:layout_width="170dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="0dp"
+        android:src="@drawable/img_gif_unlock"
+        android:visibility="invisible" />
+
+</RelativeLayout>
