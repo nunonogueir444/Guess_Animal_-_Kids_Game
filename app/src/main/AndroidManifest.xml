@@ -21,10 +21,10 @@
         </activity>
 
         <!-- TEST: ca-app-pub-3940256099942544~3347511713 -->
-        <!-- TRUE: ca-app-pub-5385342330837943~4689451955 -->
+        <!-- TRUE: ca-app-pub-xxxxx -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-5385342330837943~4689451955"/>
+            android:value="ca-app-pub-3940256099942544~3347511713"/>
 
     </application>
 

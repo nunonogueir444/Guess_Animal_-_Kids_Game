@@ -176,8 +176,8 @@ public class MainActivity extends AppCompatActivity implements RewardedVideoAdLi
         // public void initializeMobileAds() {
 
         // TEST: ca-app-pub-3940256099942544~3347511713
-        // TRUE: ca-app-pub-5385342330837943~4689451955
-        MobileAds.initialize(this, "ca-app-pub-5385342330837943~4689451955");
+        // TRUE: ca-app-pub-xxxxx
+        MobileAds.initialize(this, "ca-app-pub-3940256099942544~3347511713");
         //}
 
         //initializeMobileAds();
@@ -459,9 +459,9 @@ public class MainActivity extends AppCompatActivity implements RewardedVideoAdLi
     public void initializeInterstitialAd() {
 
         // TEST: ca-app-pub-3940256099942544/1033173712
-        // TRUE: ca-app-pub-5385342330837943/2037693290
+        // TRUE: ca-app-pub-xxxxx
         mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId("ca-app-pub-5385342330837943/2037693290");
+        mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
         mInterstitialAd.loadAd(new AdRequest.Builder().build());
     }
 

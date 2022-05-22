@@ -44,9 +44,9 @@
         android:layout_centerInParent="true"
         android:layout_marginBottom="450dp"
         ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-5385342330837943/8271095004"></com.google.android.gms.ads.AdView>
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111"></com.google.android.gms.ads.AdView>
     <!-- TEST: ca-app-pub-3940256099942544/6300978111 -->
-    <!-- TRUE: ca-app-pub-5385342330837943/8271095004 -->
+    <!-- TRUE: ca-app-pub-xxxxx -->
 
     <LinearLayout
         android:layout_width="match_parent"
